@@ -1,0 +1,127 @@
+body{
+    background-color: #111827;
+  }
+  #tudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+  }
+
+  #Caixa-grande {
+    color: white;
+    background-color: #1f2937;
+    width: 550px;
+    border-radius: 4px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 15px -3px rgb(0, 0, 0);
+  }
+
+  h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #22c55e;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+
+  #topo-formulario {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+  }
+
+  .perguntas {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .perguntas label {
+    margin-bottom: 5px;
+  }
+
+  #baixo-formulario {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #avaliacao {
+    width: 100%;
+    height: 80px;
+    padding: 8px;
+    resize: none;
+    border-radius: 3px;
+    border: 1px solid;
+    outline: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  label{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #nome,
+  #idade {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid;
+    outline: none;
+    width: 200px;
+    box-sizing: border-box;
+  }
+
+  .button {
+    width: 80px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 8px 0;
+    border: none;
+    font-weight: bold;
+  }
+
+  #button {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin: 20px 25px 0 0;
+  }
+
+  #Enviar {
+    background-color: green;
+  }
+
+  #Enviar:hover{
+    transition: 0.4s;
+    background-color: rgb(0, 100, 0);
+  }
+
+  #Limpar {
+    background-color: red;
+  }
+
+  #Limpar:hover{
+    transition: 0.4s;
+    background-color: rgb(177, 0, 0);
+  }
+
+  header{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  #seta{
+    cursor: pointer;
+  }
